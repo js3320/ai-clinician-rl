@@ -18,7 +18,7 @@ This study implements an AI clinician using reinforcement learning to optimize t
 - `preprocessing_and_RL_modelling_best.ipynb` - Best performing model variant
 
 ### Data Extraction
-- `AIClinician_Data_extract_MIMIC3_140219.ipynb` - Data extraction from MIMIC-III database
+- `AIClinician_Data_extract_MIMIC3_140219.ipynb` - Data extraction from MIMIC-III database [1]
 
 ## Requirements
 
