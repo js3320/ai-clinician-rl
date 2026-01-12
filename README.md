@@ -13,7 +13,7 @@ This study implements an AI clinician using reinforcement learning to optimize t
 ## Files
 
 ### Main Analysis Files
-- `preprocessing_and_RL_modelling.ipynb` - Main notebook containing data preprocessing and RL model training
+- `preprocessing_and_RL_modelling.ipynb` - Main notebook containing data preprocessing and RL model training (Medium Article: https://medium.com/@0410jiho/from-q-learning-to-clinical-decisions-6ad37ca76cef)
 - `preprocessing_and_RL_modelling-Copy[1-3].ipynb` - Alternative versions/experiments
 - `preprocessing_and_RL_modelling_best.ipynb` - Best performing model variant
 
