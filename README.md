@@ -4,7 +4,7 @@ This repository contains the code for a research study on reinforcement learning
 
 ## Overview
 
-**Clinical RL Framing**: This work is inspired by the AI Clinician formulation of ICU treatment as an offline, discretised MDP learned from retrospective trajectories.³ In the original AI Clinician approach, patient time steps are clustered into a finite set of states and the policy is obtained via dynamic programming methods such as policy iteration.³ Building on the same framing but focusing on deep RL mechanics for this article, I simplify the setup (compact normalised 3-vital state and a 25-action fluids × vasopressors grid) and train a DQN with a Double DQN-style target for stability.²
+**Clinical RL Framing**: This work is inspired by the AI Clinician formulation of ICU treatment as an offline, discretised MDP learned from retrospective trajectories [1]. In the original AI Clinician approach, patient time steps are clustered into a finite set of states and the policy is obtained via dynamic programming methods such as policy iteration. Building on the same framing but focusing on deep RL mechanics for this article, I simplify the setup (compact normalised 3-vital state and a 25-action fluids × vasopressors grid) and train a DQN with a Double DQN-style target for stability.
 
 This study implements an AI clinician using reinforcement learning to optimize treatment strategies for sepsis patients. The model learns optimal policies for fluid administration and vasopressor therapy based on patient state.
 
@@ -62,21 +62,18 @@ The following data files are expected (but not included):
 This work is based on the original AI Clinician research:
 
 **Paper:**
-Komorowski, M., Celi, L. A., Badawi, O., Gordon, A. C., & Faisal, A. A. (2018). The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care. *Nature Medicine*, 24(11), 1716-1720.
+[1] Komorowski, M., Celi, L. A., Badawi, O., Gordon, A. C., & Faisal, A. A. (2018). The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care. *Nature Medicine*, 24(11), 1716-1720.
 https://www.nature.com/articles/s41591-018-0213-5
 
-**Original Code:**
-https://github.com/matthieukomorowski/AI_Clinician
+**Original AI Clinician Code:**
+[1] https://github.com/matthieukomorowski/AI_Clinician
 
 If you use this code, please cite both the original paper and acknowledge the original AI Clinician implementation.
 
-## License
-
-[Add your chosen license here]
 
 ## Contact
 
-[Add your contact information]
+Email: js3320@ic.ac.uk
 
 ## Disclaimer
 
