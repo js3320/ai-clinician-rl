@@ -1,0 +1,44 @@
+# Data files - excluded for data protection
+data_extraction/
+*.csv
+
+# Credentials
+*.json
+mimic-analysis-*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# MATLAB
+*.asv
+*.mex*
+*.mat
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
