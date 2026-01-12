@@ -1,4 +1,4 @@
-# Reinforcement Learning for ICU settings
+# From Q-Learning to Clinical Decisions
 
 This repository contains the code for a research study on reinforcement learning-based clinical decision support for sepsis treatment using the MIMIC-III database. Also, this study is conducted for educational purposes to enhance the accessibility and practical application of reinforcement learning within the healthcare sector.
 
