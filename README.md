@@ -1,10 +1,12 @@
 # AI Clinician - Reinforcement Learning for Sepsis Treatment
 
-This repository contains the code for reinforcement learning-based clinical decision support for sepsis treatment using the MIMIC-III database.
+This repository contains the code for a research study on reinforcement learning-based clinical decision support for sepsis treatment using the MIMIC-III database.
 
 ## Overview
 
-This project implements an AI clinician using reinforcement learning to optimize treatment strategies for sepsis patients. The model learns optimal policies for fluid administration and vasopressor therapy based on patient state.
+**Clinical RL Framing**: This work is inspired by the AI Clinician formulation of ICU treatment as an offline, discretised MDP learned from retrospective trajectories.³ In the original AI Clinician approach, patient time steps are clustered into a finite set of states and the policy is obtained via dynamic programming methods such as policy iteration.³ Building on the same framing but focusing on deep RL mechanics for this article, I simplify the setup (compact normalised 3-vital state and a 25-action fluids × vasopressors grid) and train a DQN with a Double DQN-style target for stability.²
+
+This study implements an AI clinician using reinforcement learning to optimize treatment strategies for sepsis patients. The model learns optimal policies for fluid administration and vasopressor therapy based on patient state.
 
 ## Files
 
@@ -55,11 +57,18 @@ The following data files are expected (but not included):
 2. **Preprocessing & Training**: Run `preprocessing_and_RL_modelling.ipynb` to preprocess data and train the RL model
 3. **Analysis**: Use the MATLAB scripts for additional analysis and evaluation
 
-## Citation
+## References
 
-If you use this code, please cite the original AI Clinician paper:
+This work is based on the original AI Clinician research:
 
-[Add appropriate citation here]
+**Paper:**
+Komorowski, M., Celi, L. A., Badawi, O., Gordon, A. C., & Faisal, A. A. (2018). The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care. *Nature Medicine*, 24(11), 1716-1720.
+https://www.nature.com/articles/s41591-018-0213-5
+
+**Original Code:**
+https://github.com/matthieukomorowski/AI_Clinician
+
+If you use this code, please cite both the original paper and acknowledge the original AI Clinician implementation.
 
 ## License
 
