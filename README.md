@@ -17,12 +17,6 @@ This study implements an AI clinician using reinforcement learning to optimize t
 - `preprocessing_and_RL_modelling-Copy[1-3].ipynb` - Alternative versions/experiments
 - `preprocessing_and_RL_modelling_best.ipynb` - Best performing model variant
 
-### MATLAB Core Files
-- `AIClinician_core_160219.m` - Core AI Clinician implementation (Feb 2019 version)
-- `AIClinician_core_181118.m` - Core AI Clinician implementation (Nov 2018 version)
-- `AIClinician_mimic3_dataset_160219.m` - MIMIC-III dataset processing
-- `AIClinician_sepsis3_def_160219.m` - Sepsis-3 definition implementation
-
 ### Data Extraction
 - `AIClinician_Data_extract_MIMIC3_140219.ipynb` - Data extraction from MIMIC-III database
 
