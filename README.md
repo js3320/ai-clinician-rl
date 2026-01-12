@@ -1,14 +1,14 @@
 # AI Clinician - Reinforcement Learning for Sepsis Treatment
 
-This repository contains the code for a research study on reinforcement learning-based clinical decision support for sepsis treatment using the MIMIC-III database.
+This repository contains the code for a research study on reinforcement learning-based clinical decision support for sepsis treatment using the MIMIC-III database. Also, this study is conducted for educational purposes to enhance the accessibility and practical application of reinforcement learning within the healthcare sector.
 
 ## Overview
 
 **Clinical RL Framing**: This work is inspired by the AI Clinician formulation of ICU treatment as an offline, discretised MDP learned from retrospective trajectories [1]. In the original AI Clinician approach, patient time steps are clustered into a finite set of states and the policy is obtained via dynamic programming methods such as policy iteration. Building on the same framing but focusing on deep RL mechanics for this article, I simplify the setup (compact normalised 3-vital state and a 25-action fluids × vasopressors grid) and train a DQN with a Double DQN-style target for stability.
 
 This study implements an AI clinician using reinforcement learning to optimize treatment strategies for sepsis patients by learning optimal policies for fluid administration and vasopressor therapy based on patient state.
-**Note**
-This study is conducted for educational purposes to enhance the accessibility and practical application of reinforcement learning within the healthcare sector. 
+
+
 
 ## Files
 
